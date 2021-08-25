@@ -15,6 +15,11 @@
       padding-right: 200px;
       margin-top: 40px;
     }
+    details{
+      padding-left: 200px;
+      padding-right: 200px;
+      margin-top: 10px;
+    }
     @media only screen and (max-width: 850px) {
     .about{
       padding-left: 45px;
@@ -30,92 +35,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MetaTags-->
     <meta name="author" content="Akhilesh Thite">
     <meta property="og:title" content="Akhilesh Thite" />
-    <meta property="og:description" content="A passionate software developer." />
+    <meta property="og:description" content="An Indian tech enthusiast with a passion for Software Development, Open-Source, Decentralization & AI." />
     <meta property="og:url" content=“https://akhileshthite.me/ />
     <meta property="og:type" content="website">
-    <link rel="shortcut icon" type="image/png" href="" />
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+    <!--Tailwind-->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!--Title-->
     <title>Akhilesh Thite</title>
 </head>
 <body>
-    <!--Resume-->
+    <!--Resume
     <header class="text-gray-600 body-font">
         <div class="items-left ml-3 mt-3">
-          <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base">Resume
+          <a class="inline-flex items-center bg-gray-300 border-0 py-1 px-3 focus:outline-none hover:bg-gray-400 rounded text-base" href="/" target="_blank">Resume
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-          </button>
+          </a>
         </div>
     </header><br>
+    -->
     <!--Heading-->
-    <h1 class="text-3xl text-center mt-4 mb-4">Akhilesh Thite</h1>
+    <h1 class="text-3xl text-center mt-10 mb-4">Akhilesh Thite</h1>
     <!--About-->
-    <p class="text-left about" style="align-items: center;">
-        Hey! I'm a third-year student pursuing my bachelor's in Computer Science Engineering from the University of Mumbai.<br>
-        I'm passionate about Web Development, Blockchain & Artificial Intelligence. I enjoy learning and exploring new things. My current interests include Blockchain & Decentralized Applications. Using my skills, I like to create things that are beneficial to us and our planet.<br>
-        I'm an open-source enthusiast, open-source allows us to collaborate with everyone and harness a global network of creative, intelligent, and knowledgeable individuals.<br>
+    <p class="text-center about" style="align-items: center;">
+        An Indian tech enthusiast with a passion for Software Development, Open-Source & Decentralization.<br>
+        I'm currently in third year pursuing my bachelor's in Computer Science Engineering from the University of Mumbai. I enjoy learning and exploring new things. I'm currently working on Blockchain, ERC20, ERC721 & Full Stack Decentralized Applications. Using my skills, I like to create things that are beneficial to us and our planet.<br>
     </p>
+    <!--Projects-->
+    <section>
+      <h3 class="font-bold">PROJECTS</h3>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/DTube" target="_blank">DTube</a></p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Jul 2021 - Aug 2021</p>
+          A decentralized video sharing & social media platform on Ethereum blockchain. The project won <b>IPFS & Filecoin bounty worth $500</b> at ETHOdyssey 2021 Hackathon.
+        </div>
+      </span>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/COVID-19-VaccineFinder" target="_blank">COVID-19 Vaccine Finder</a></p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Jun 2021</p>
+          COVID-19 Vaccine Finder website to check the available slots for vaccination centers from coWIN API in India. The website is used by <b>hundreds</b> of users monthly to check available slots for vaccination centers.
+        </div>
+      </span>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/HealthApp" target="_blank">AI Health App</a></p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">May 2021</p>
+          Predict diseases with the help of AI to save cost, time, and to prevent misdiagnosis. Any hospital or individual user can use this web application to predict the disease (use ai as a second opinion).
+        </div>
+      </span>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/Planetary-Albedo" target="_blank">Machine Learning Model for the Planetary Albedo</a></p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Mar 2021 - Apr 2021</p>
+          A deep multi-objective regression model that can predict the chemical composition of Mercury & Moon.
+        </div>
+      </span>
+    </section>
+    <!--See more-->
+    <details>
+      <summary class="text-xs text-black">See more</summary>
+      <p class="text-sm">coming soon..</p>
+    </details>  
     <!--Professional Experience-->
     <section>
       <h3 class="font-bold">PROFESSIONAL EXPERIENCE</h3>
       <span>
         <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Open Source Contributor - GirlScript Summer of Code</p>
-        <p class="text-sm">
-          Mar 2021 - May 2021<br>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Mar 2021 - May 2021</p>
           Contributed to various open-source projects.
           Tech stack: Python, Machine Learning, HTML, CSS, JavaScript          
-        </p>
+        </div>
       </span>
       <span>
         <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Data Science & Business Analytics Intern - The Sparks Foundation</p>
-        <p class="text-sm">
-          Dec 2020<br>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Dec 2020</p>
           Worked with various Machine Learning algorithms to tackle real-world business problems.
           Created interactive dashboards on Tableau.
-        </p>
+        </div>
       </span>
     </section>
-    <!--Projects-->
+    <!--Articles-->
     <section>
-      <h3 class="font-bold">PROJECTS</h3>
+      <h3 class="font-bold">ARTICLES</h3>
       <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">COVID-19 Vaccine Finder</p>
-        <p class="text-sm">
-          COVID-19 Vaccine Finder website to check the available slots for COVID-19 Vaccination Centers from coWIN API in India.
-        </p>
+      <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://learn.figment.io/tutorials/build-a-social-media-dapp-and-deploy-it-on-polygon" target="_blank">Build a Social Media dApp & Deploy it on Polygon</a></p>
+        <div class="text-sm mb-4">
+          <p class="text-xs text-gray-600">25 Aug 2021 • Figment Learn</p>         
+        </div>
       </span>
       <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">AI Health App</p>
-        <p class="text-sm">
-          Predicting diseases with the help of AI to save cost, time, and to prevent misdiagnosis. Any hospital or individual user can use this web application to predict the disease (use ai as second opinion).
-        </p>
-      </span>
-      <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Machine Learning Model for the Planetary Albedo</p>
-        <p class="text-sm">
-          Deep multi-objective regression model that can predict the chemical composition of Mercury & Moon.
-        </p>
-      </span>
-    </section>
-    <!--Blogs-->
-    <section>
-      <h3 class="font-bold">BLOG ARTICLES</h3>
-      <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, nesciunt.</p>
-        <p class="text-sm">
-          Mar 2021 - May 2021          
-        </p>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://dev.to/akhileshthite/how-to-deploy-smart-contracts-on-polygon-matic-network-how-to-handle-different-errors-3l2k" target="_blank">How to Deploy Smart Contracts on Polygon (Matic) Network? How to Handle Different Errors?</a></p>
+        <div class="text-sm mb-4">
+          <p class="text-xs text-gray-600">8 Aug 2021</p>         
+        </div>
       </span>
     <!--Tweets-->
     <center>
       <a class="twitter-timeline" width="300" height="300" href="https://twitter.com/AkhileshThite_?ref_src=twsrc%5Etfw">Tweets by AkhileshThite_</a>
     </center>
-    <p class="text-xs text-center mt-4">-- This website is decentralized, hosted on IPFS.</p>
+    <p class="text-xs text-center mt-4 mb-2">This website is decentralized ;D</p>
     <!--Footer-->
-    <footer class="text-black body-font bg-white">
+    <footer class="text-black body-font bg-white mt-0">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <p class="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-black sm:py-2 sm:mt-0 mt-4">© 2021
             <a href="/" class="text-black ml-1 hover:underline" rel="noopener noreferrer">AkhileshThite</a>
@@ -126,7 +156,7 @@
               <img src="https://img.icons8.com/doodle/48/000000/gmail-new.png" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-6 h-6 text-white hover:text-gray-600" viewBox="0 0 24 24">
             </a>
             <!--Twitter-->
-            <a class="ml-3 text-gray-500" href="https://twitter.com/CuriousGrids" target="_blank">
+            <a class="ml-3 text-gray-500" href="https://twitter.com/AkhileshThite_" target="_blank">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6 text-blue-400 hover:text-blue-500" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
