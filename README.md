@@ -1,1 +1,0 @@
-Akhilesh Thite's website.

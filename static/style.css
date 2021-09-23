@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.about{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+section{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 40px;
+}
+details{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 850px) {
+.about{
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: left!important;
+  }
+section, details{
+  padding-left: 45px;
+  padding-right: 45px;
+  }
+}

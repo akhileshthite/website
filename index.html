@@ -1,37 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    body{
-      background-color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      margin: auto;
-    }
-    .about{
-      padding-left: 200px;
-      padding-right: 200px;
-    }
-    section{
-      padding-left: 200px;
-      padding-right: 200px;
-      margin-top: 40px;
-    }
-    details{
-      padding-left: 200px;
-      padding-right: 200px;
-      margin-top: 10px;
-    }
-    @media only screen and (max-width: 850px) {
-    .about{
-      padding-left: 45px;
-      padding-right: 45px;
-      text-align: left!important;
-      }
-    section, details{
-      padding-left: 45px;
-      padding-right: 45px;
-      }
-    }
-</style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,10 +8,13 @@
     <meta name="author" content="Akhilesh Thite">
     <meta property="og:title" content="Akhilesh Thite" />
     <meta property="og:description" content="An Indian tech enthusiast with a passion for Software Development, Open-Source, Decentralization & AI." />
+    <meta name="keywords" content="Akhilesh Thite, akhileshthite" />
     <meta property="og:url" content=“https://akhileshthite.me/ />
     <meta property="og:type" content="website">
+    <!--External CSS file-->
+    <link rel="stylesheet" href="static/style.css" />
     <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/static/assets/favicon.ico" />
     <!--Tailwind-->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <!--Title-->
@@ -68,6 +39,36 @@
         An Indian tech enthusiast with a passion for Software Development, Open-Source & Decentralization.<br>
         I'm currently in third year pursuing my bachelor's in Computer Science Engineering from the University of Mumbai. I enjoy learning and exploring new things. I'm currently working on Blockchain, ERC20, ERC721 & Full Stack Decentralized Applications. Using my skills, I like to create things that are beneficial to us and our planet.<br>
     </p>
+    <!--Professional Experience-->
+    <section>
+      <h3 class="font-bold">PROFESSIONAL EXPERIENCE</h3>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://cyclos.io" target="_blank">Full Stack Blockchain Developer - Cyclos</a></p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Internship • Aug 2021 - Sep 2021</p>
+          Cyclos is the only concentrated liquidity market maker on Solana.<br>
+          • Worked on a custom price indexer, built a GraphQL API to fetch real-time market prices from Serum with the help of Serum's TS SDK. Later the data is sent to the cloud to show real-time interactive market charts on the front-end.<br>
+          • Added multiple wallet support to serum swap-UI with the help of Solana wallet-adapter.<br>
+          • Worked on swap UI with the help of React Material-UI framework.        
+        </div>
+      </span>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Open Source Contributor - GirlScript Summer of Code</p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Mar 2021 - May 2021</p>
+          • Contributed to various open-source projects.<br>
+          • Tech stack: Python, Machine Learning, HTML, CSS, JavaScript          
+        </div>
+      </span>
+      <span>
+        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Data Science & Business Analytics Intern - The Sparks Foundation</p>
+        <div class="text-sm">
+          <p class="text-xs text-gray-600">Internship • Dec 2020</p>
+          • Worked with various Machine Learning algorithms to tackle real-world business problems.<br>
+          • Created interactive dashboards on Tableau.
+        </div>
+      </span>
+    </section>
     <!--Projects-->
     <section>
       <h3 class="font-bold">PROJECTS</h3>
@@ -75,14 +76,14 @@
         <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/DTube" target="_blank">DTube</a></p>
         <div class="text-sm">
           <p class="text-xs text-gray-600">Jul 2021 - Aug 2021</p>
-          A decentralized video sharing & social media platform on Ethereum blockchain. The project won <b>IPFS & Filecoin bounty worth $500</b> at ETHOdyssey 2021 Hackathon.
+          A decentralized video sharing & social media platform on Ethereum blockchain.
         </div>
       </span>
       <span>
         <p class="text-sm underline hover:no-underline cursor-pointer mt-2"><a href="https://github.com/AkhileshThite/COVID-19-VaccineFinder" target="_blank">COVID-19 Vaccine Finder</a></p>
         <div class="text-sm">
           <p class="text-xs text-gray-600">Jun 2021</p>
-          COVID-19 Vaccine Finder website to check the available slots for vaccination centers from coWIN API in India. The website is used by <b>hundreds</b> of users monthly.
+          COVID-19 Vaccine Finder website to check the available slots for vaccination centers from coWIN API in India. The website is used by hundreds of users monthly.
         </div>
       </span>
       <span>
@@ -105,26 +106,6 @@
       <summary class="text-xs text-black">See more</summary>
       <p class="text-sm">coming soon..</p>
     </details>  
-    <!--Professional Experience-->
-    <section>
-      <h3 class="font-bold">PROFESSIONAL EXPERIENCE</h3>
-      <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Open Source Contributor - GirlScript Summer of Code</p>
-        <div class="text-sm">
-          <p class="text-xs text-gray-600">Mar 2021 - May 2021</p>
-          Contributed to various open-source projects.
-          Tech stack: Python, Machine Learning, HTML, CSS, JavaScript          
-        </div>
-      </span>
-      <span>
-        <p class="text-sm underline hover:no-underline cursor-pointer mt-2">Data Science & Business Analytics Intern - The Sparks Foundation</p>
-        <div class="text-sm">
-          <p class="text-xs text-gray-600">Dec 2020</p>
-          Worked with various Machine Learning algorithms to tackle real-world business problems.
-          Created interactive dashboards on Tableau.
-        </div>
-      </span>
-    </section>
     <!--Articles-->
     <section>
       <h3 class="font-bold">ARTICLES</h3>
