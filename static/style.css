@@ -1,30 +1,64 @@
-body{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+html,
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.about{
-  padding-left: 200px;
-  padding-right: 200px;
+.about {
+  padding-left: 550px;
+  padding-right: 550px;
+  text-align: left !important;
 }
-section{
-  padding-left: 200px;
-  padding-right: 200px;
+.proj-lst{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+section {
+  padding-left: 550px;
+  padding-right: 550px;
   margin-top: 40px;
 }
-details{
-  padding-left: 200px;
-  padding-right: 200px;
+details {
+  padding-left: 550px;
+  padding-right: 550px;
   margin-top: 10px;
 }
-@media only screen and (max-width: 850px) {
-.about{
-  padding-left: 45px;
-  padding-right: 45px;
-  text-align: left!important;
+.blogs {
+  height: 375px;
+}
+.contact {
+  height: 375px;
+}
+.cont-lst{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1706px) {
+  .about {
+    padding-left: 200px;
+    padding-right: 200px;
   }
-section, details{
-  padding-left: 45px;
-  padding-right: 45px;
+  section,
+  details {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .about {
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: left !important;
+  }
+  .proj-lst{
+    margin-left: 0px;
+  }
+  section,
+  details {
+    padding-left: 45px;
+    padding-right: 45px;
   }
 }
