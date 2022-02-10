@@ -118,5 +118,28 @@
     </footer>
     <!--Scripts-->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBWfHkPGGfBJIk5JemKKgNYi8lYPLC-WOI",
+        authDomain: "personal-website-b3c00.firebaseapp.com",
+        projectId: "personal-website-b3c00",
+        storageBucket: "personal-website-b3c00.appspot.com",
+        messagingSenderId: "720294957319",
+        appId: "1:720294957319:web:b469b9951550b34afcf5a2",
+        measurementId: "G-HMLYW8NGLP"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
 </body>
 </html>
