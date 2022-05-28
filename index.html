@@ -20,22 +20,26 @@
     <meta property="og:url" content="https://akhileshthite.me/" />
     <meta property="og:type" content="Website" />
     <!--External CSS file-->
-    <link rel="stylesheet" href="static/style.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
     <!--Favicon-->
     <link
       rel="shortcut icon"
       type="image/png"
-      href="/static/images/favicon.ico"
+      href="/static/img/favicon.ico"
     />
     <!--Tailwind-->
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <!--Particlesjs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <!--Title-->
     <title>Akhilesh Thite</title>
   </head>
   <body>
+    <!--Particles-->
+    <canvas class="background"></canvas>
     <!--Header-->
     <section class="text-gray-600 body-font">
       <div class="items-left ml-0 mt-8">
@@ -72,7 +76,9 @@
       </center>
     </section>
     <!--Heading-->
-    <h1 class="text-3xl text-center mt-8 mb-4">Akhilesh Thite</h1>
+    <center class="mt-8 mb-4">
+      <code class="text-2xl text-center">Akhilesh Thite</code>
+    </center>
     <!--About-->
     <p class="text-center about" style="align-items: center">
       I’m an Indian tech enthusiast with a passion for software development,
@@ -267,20 +273,6 @@
         </li>
       </ul>
     </details>
-    <!--Tweets-->
-    <center class="mt-10">
-      <a
-        class="twitter-timeline"
-        width="300"
-        height="300"
-        href="https://twitter.com/AkhileshThite_?ref_src=twsrc%5Etfw"
-        rel="noopener noreferrer"
-        >Tweets by AkhileshThite_</a
-      >
-    </center>
-    <p class="text-xs text-center mt-4 mb-2">
-      This website is decentralized :D
-    </p>
     <!--Footer-->
     <footer class="text-black body-font mt-0">
       <div
@@ -308,11 +300,7 @@
       </div>
     </footer>
     <!--Scripts-->
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    <script type="text/javascript" src="./static/js/particles.js"></script>
     <!--Firebase-->
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>

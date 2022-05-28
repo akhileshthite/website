@@ -15,22 +15,26 @@
     <meta property="og:url" content=“https://akhileshthite.me/blogs />
     <meta property="og:type" content="website" />
     <!--External CSS file-->
-    <link rel="stylesheet" href="static/style.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
     <!--Favicon-->
     <link
       rel="shortcut icon"
       type="image/png"
-      href="/static/images/favicon.ico"
+      href="/static/img/favicon.ico"
     />
     <!--Tailwind-->
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <!--Particlesjs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <!--Title-->
     <title>Akhilesh Thite | Blogs</title>
   </head>
   <body>
+    <!--Particles-->
+    <canvas class="background"></canvas>
     <!--Header-->
     <section class="text-gray-600 body-font">
       <div class="items-left ml-0 mt-8">
@@ -137,20 +141,6 @@
     <!--<details>
         <summary class="text-xs text-black">See more</summary>
     </details>-->
-    <!--Tweets-->
-    <center class="mt-6">
-      <a
-        class="twitter-timeline"
-        width="300"
-        height="300"
-        href="https://twitter.com/AkhileshThite_?ref_src=twsrc%5Etfw"
-        rel="noopener noreferrer"
-        >Tweets by AkhileshThite_</a
-      >
-    </center>
-    <p class="text-xs text-center mt-4 mb-2">
-      This website is decentralized :D
-    </p>
     <!--Footer-->
     <footer class="text-black body-font mt-0">
       <div
@@ -178,10 +168,6 @@
       </div>
     </footer>
     <!--Scripts-->
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    <script type="text/javascript" src="./static/js/particles.js"></script>
   </body>
 </html>
