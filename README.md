@@ -1,1 +1,1 @@
-🌐 Akhilesh Thite's website.
+🌐 https://akhilesh.art/
