@@ -1,1 +1,1 @@
-🕸️ https://akhilesh.art/
+https://akhilesh.art/
