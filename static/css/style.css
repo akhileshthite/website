@@ -37,7 +37,8 @@ details {
   margin-top: 10px;
 }
 
-.blogs,
+.blog,
+.talks,
 .contact {
   height: 375px;
 }
