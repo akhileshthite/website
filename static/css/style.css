@@ -2,69 +2,63 @@ html,
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-.background{
+
+.background {
   position: absolute;
   display: block;
   top: 0px;
   left: 0px;
   z-index: -1;
 }
+
 .about {
-  padding-left: 550px;
-  padding-right: 550px;
+  padding-left: max(600px, calc((100% - 1200px) / 2));
+  padding-right: max(600px, calc((100% - 1200px) / 2));
   text-align: left !important;
 }
-.ufo{
-  width: 90px;
-  margin-left: 272px;
-  margin-bottom: -90px;
-}
-.proj-lst{
+
+.proj-lst,
+.cont-lst {
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 20px;
   margin-top: 20px;
 }
+
 section {
-  padding-left: 550px;
-  padding-right: 550px;
+  padding-left: max(600px, calc((100% - 1200px) / 2));
+  padding-right: max(600px, calc((100% - 1200px) / 2));
   margin-top: 40px;
 }
+
 details {
-  padding-left: 550px;
-  padding-right: 550px;
+  padding-left: max(600px, calc((100% - 1200px) / 2));
+  padding-right: max(600px, calc((100% - 1200px) / 2));
   margin-top: 10px;
 }
-.blogs {
-  height: 375px;
-}
+
+.blogs,
 .contact {
   height: 375px;
 }
-.cont-lst{
-  list-style-type: disc;
-  list-style-position: inside;
-  margin-left: 20px;
-  margin-top: 20px;
-}
+
 @media only screen and (max-width: 1706px) {
-  .about {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+  .about,
   section,
   details {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: max(200px, calc((100% - 800px) / 2));
+    padding-right: max(200px, calc((100% - 800px) / 2));
   }
 }
+
 @media only screen and (max-width: 850px) {
   .about {
     padding-left: 45px;
     padding-right: 45px;
     text-align: left !important;
   }
-  .proj-lst, .cont-lst{
+  .proj-lst,
+  .cont-lst {
     margin-left: 0px;
   }
   section,
