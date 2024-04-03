@@ -3,14 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.background {
-  position: absolute;
-  display: block;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
-
 .about {
   padding-left: max(600px, calc((100% - 1200px) / 2));
   padding-right: max(600px, calc((100% - 1200px) / 2));
@@ -37,10 +29,21 @@ details {
   margin-top: 10px;
 }
 
+summary {
+  cursor: pointer;
+}
+
 .blog,
 .talks,
 .contact {
-  height: 375px;
+  height: 100vh;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1706px) {
@@ -67,4 +70,15 @@ details {
     padding-left: 45px;
     padding-right: 45px;
   }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
