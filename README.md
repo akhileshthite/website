@@ -1,2 +1,1 @@
-## Website
-🌐 https://akhilesh.art/
+## akhilesh.art
