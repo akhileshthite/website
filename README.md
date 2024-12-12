@@ -1,2 +1,2 @@
 ## akhilesh.art
-Website for Akhilesh
+Website for Akhilesh Thite
