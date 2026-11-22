@@ -1,0 +1,51 @@
+# Turns PDFs added to books/ into EPUBs for my CrossPoint reader and updates
+# the catalog at https://akhilesh.art/books/opds.xml.
+# The converter lives in my CrossPoint fork: tools/paper-library.
+
+name: Books
+
+on:
+  push:
+    branches: [main]
+    paths: ["books/**"]
+  workflow_dispatch:
+    inputs:
+      rebuild:
+        description: Convert every PDF again
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit the EPUBs and catalog
+  pages: write # ask GitHub Pages to publish them
+  actions: write # start the Distributed Press workflow
+
+concurrency:
+  group: books
+  cancel-in-progress: false
+
+jobs:
+  books:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Convert PDFs and update the catalog
+        id: books
+        uses: akhileshthite/crosspoint-reader/tools/paper-library@develop
+        with:
+          title: Akhilesh's books
+          # Sized for the Xteink X3: 528x792 screen, 259 pixels per inch.
+          width: 512
+          height: 712
+          dpi: 259
+          rebuild: ${{ inputs.rebuild || false }}
+
+      # Pushes made by this workflow don't start other workflows, so start the
+      # Distributed Press copy here.
+      - name: Update the Distributed Press copy
+        if: ${{ !cancelled() && steps.books.outputs.changed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-distributed-press.yaml --ref main
