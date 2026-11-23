@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
 <id>https://akhilesh.art/books/opds.xml</id>
 <title>Reading list</title>
-<updated>2026-11-23T02:30:22Z</updated>
+<updated>2026-11-23T05:39:05Z</updated>
 <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
 <link rel="start" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
+<entry>
+<title>The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs</title>
+<id>urn:sha256:e5ea56bb3da37b73c7bcb4b6bec64a518b70decccc71acd34ad285267bb55142</id>
+<updated>2026-11-23T05:39:05Z</updated>
+<author><name>Robin L. Carhart-Harris</name></author>
+<summary>PDF, 22 pages, 85 screens on the reader</summary>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="https://akhilesh.art/books/epub/the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.epub" length="5992608"/>
+<link rel="http://opds-spec.org/image" type="image/jpeg" href="https://akhilesh.art/books/covers/the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.jpg"/>
+<link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://akhilesh.art/books/covers/the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.jpg"/>
+</entry>
 <entry>
 <title>Uncommon Knowledge</title>
 <id>urn:sha256:aab161ab09e852e8df3eade4ab99155c4890c2e6990598831ecc5ff1394021aa</id>

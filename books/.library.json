@@ -8,6 +8,22 @@
   "layout": "auto",
   "k2_args": [],
   "books": {
+    "The entropic brain - a theory of conscious states informed by neuroimaging research with psychedelic drugs.pdf": {
+      "slug": "the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc",
+      "added": "2026-11-23T05:38:38Z",
+      "kind": "pdf",
+      "source": "The entropic brain - a theory of conscious states informed by neuroimaging research with psychedelic drugs.pdf",
+      "sha256": "e5ea56bb3da37b73c7bcb4b6bec64a518b70decccc71acd34ad285267bb55142",
+      "title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+      "author": "Robin L. Carhart-Harris",
+      "pages": 22,
+      "layout": "columns",
+      "screens": 85,
+      "updated": "2026-11-23T05:39:05Z",
+      "epub": "epub/the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.epub",
+      "cover": "covers/the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.jpg",
+      "size": 5992608
+    },
     "desert solitaire · a season in the wilderness -- abbey, edward -- ( welib.org ).kepub.epub": {
       "slug": "desert-solitaire-a-season-in-the-wilderness-abbey-edward-welib-org-kepub",
       "added": "2026-11-23T02:30:22Z",
