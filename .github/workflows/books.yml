@@ -35,7 +35,7 @@ jobs:
         id: books
         uses: akhileshthite/crosspoint-reader/tools/paper-library@develop
         with:
-          title: Akhilesh's books
+          title: Reading list
           # Sized for the Xteink X3: 528x792 screen, 259 pixels per inch.
           width: 512
           height: 712

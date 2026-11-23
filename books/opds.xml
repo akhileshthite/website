@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
 <id>https://akhilesh.art/books/opds.xml</id>
-<title>Akhilesh&#x27;s books</title>
+<title>Reading list</title>
 <updated>2026-11-23T02:30:22Z</updated>
 <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
 <link rel="start" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
