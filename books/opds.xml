@@ -2,7 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
 <id>https://akhilesh.art/books/opds.xml</id>
 <title>Akhilesh&#x27;s books</title>
-<updated>2026-11-22T06:13:01Z</updated>
+<updated>2026-11-23T02:30:22Z</updated>
 <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
 <link rel="start" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://akhilesh.art/books/opds.xml"/>
+<entry>
+<title>Uncommon Knowledge</title>
+<id>urn:sha256:aab161ab09e852e8df3eade4ab99155c4890c2e6990598831ecc5ff1394021aa</id>
+<updated>2026-11-23T02:30:22Z</updated>
+<author><name>Tom Standage</name></author>
+<summary>EPUB</summary>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="https://akhilesh.art/books/uncommon_knowledge_-_tom_standage.kepub.epub" length="7431514"/>
+<link rel="http://opds-spec.org/image" type="image/jpeg" href="https://akhilesh.art/books/covers/uncommon-knowledge-tom-standage-kepub.jpg"/>
+<link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://akhilesh.art/books/covers/uncommon-knowledge-tom-standage-kepub.jpg"/>
+</entry>
+<entry>
+<title>Governable Spaces</title>
+<id>urn:sha256:03f592b2662202eafd500b5dfe5274e6219eef466084c654b7749a668431dc80</id>
+<updated>2026-11-23T02:30:22Z</updated>
+<author><name>Nathan Schneider</name></author>
+<summary>EPUB</summary>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="https://akhilesh.art/books/governable-spaces.kepub.epub" length="12644639"/>
+</entry>
+<entry>
+<title>Desert Solitaire · A Season in the Wilderness</title>
+<id>urn:sha256:2b5e452c33f5a9f9cd29cc7ca7850f20b4804643ea2931fbed1773d0a6f18758</id>
+<updated>2026-11-23T02:30:22Z</updated>
+<author><name>Abbey, Edward</name></author>
+<summary>EPUB</summary>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="https://akhilesh.art/books/desert%20solitaire%20%C2%B7%20a%20season%20in%20the%20wilderness%20--%20abbey%2C%20edward%20--%20%28%20welib.org%20%29.kepub.epub" length="1974104"/>
+<link rel="http://opds-spec.org/image" type="image/jpeg" href="https://akhilesh.art/books/covers/desert-solitaire-a-season-in-the-wilderness-abbey-edward-welib-org-kepub.jpg"/>
+<link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://akhilesh.art/books/covers/desert-solitaire-a-season-in-the-wilderness-abbey-edward-welib-org-kepub.jpg"/>
+</entry>
 </feed>

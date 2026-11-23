@@ -7,5 +7,44 @@
   ],
   "layout": "auto",
   "k2_args": [],
-  "books": {}
+  "books": {
+    "desert solitaire · a season in the wilderness -- abbey, edward -- ( welib.org ).kepub.epub": {
+      "slug": "desert-solitaire-a-season-in-the-wilderness-abbey-edward-welib-org-kepub",
+      "added": "2026-11-23T02:30:22Z",
+      "kind": "epub",
+      "source": "desert solitaire · a season in the wilderness -- abbey, edward -- ( welib.org ).kepub.epub",
+      "sha256": "2b5e452c33f5a9f9cd29cc7ca7850f20b4804643ea2931fbed1773d0a6f18758",
+      "title": "Desert Solitaire · A Season in the Wilderness",
+      "author": "Abbey, Edward",
+      "updated": "2026-11-23T02:30:22Z",
+      "size": 1974104,
+      "cover": "covers/desert-solitaire-a-season-in-the-wilderness-abbey-edward-welib-org-kepub.jpg",
+      "epub": "desert solitaire · a season in the wilderness -- abbey, edward -- ( welib.org ).kepub.epub"
+    },
+    "governable-spaces.kepub.epub": {
+      "slug": "governable-spaces-kepub",
+      "added": "2026-11-23T02:30:22Z",
+      "kind": "epub",
+      "source": "governable-spaces.kepub.epub",
+      "sha256": "03f592b2662202eafd500b5dfe5274e6219eef466084c654b7749a668431dc80",
+      "title": "Governable Spaces",
+      "author": "Nathan Schneider",
+      "updated": "2026-11-23T02:30:22Z",
+      "size": 12644639,
+      "epub": "governable-spaces.kepub.epub"
+    },
+    "uncommon_knowledge_-_tom_standage.kepub.epub": {
+      "slug": "uncommon-knowledge-tom-standage-kepub",
+      "added": "2026-11-23T02:30:22Z",
+      "kind": "epub",
+      "source": "uncommon_knowledge_-_tom_standage.kepub.epub",
+      "sha256": "aab161ab09e852e8df3eade4ab99155c4890c2e6990598831ecc5ff1394021aa",
+      "title": "Uncommon Knowledge",
+      "author": "Tom Standage",
+      "updated": "2026-11-23T02:30:22Z",
+      "size": 7431514,
+      "cover": "covers/uncommon-knowledge-tom-standage-kepub.jpg",
+      "epub": "uncommon_knowledge_-_tom_standage.kepub.epub"
+    }
+  }
 }
